@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data: do not push raw lab data
+data/raw/
+data/**/*.mat
+data/**/*.npy
+data/**/*.npz
+data/**/*.h5
+data/**/*.hdf5
+data/**/*.edf
+data/**/*.dat
+data/**/*.bin
+
+# Large generated outputs
+figures/tmp/
+*.DS_Store
